@@ -7,10 +7,7 @@ abstract class Bird {
 }
 
 abstract class Eagle extends Bird {
-    @Override
-    void eat() {
-        System.out.println("Eagle will eat");
-    }
+
 
     @Override
     void sleep() {
@@ -24,10 +21,6 @@ abstract class Eagle extends Bird {
 }
 
 abstract class Sparrow extends Bird {
-    @Override
-    void eat() {
-        System.out.println("Sparrow is eating");
-    }
 
     @Override
     void fly() {
@@ -50,21 +43,21 @@ final class MountEagle extends Eagle {
 final class SerpentEagle extends Eagle {
     @Override
     void eat() {
-        System.out.println("Serpent Eagle is eating");
+        System.out.println("Serpent Eagle is eating snakes");
     }
 }
 
 final class VegSparrow extends Sparrow {
     @Override
     void eat() {
-        System.out.println("Veg Sparrow is eating");
+        System.out.println("Veg Sparrow is eating grains");
     }
 }
 
 final class NonVegSparrow extends Sparrow {
     @Override
     void eat() {
-        System.out.println("Non-Veg Sparrow is eating");
+        System.out.println("Non-Veg Sparrow is eating fish");
     }
 }
 
@@ -79,6 +72,9 @@ class Main {
         call(serpentEagle);
         call(vegSparrow);
         call(nonVegSparrow);
+        /*we can also do like this
+       call(new MountEagle())
+         */
     }
 
     static void call(Bird bird) {
