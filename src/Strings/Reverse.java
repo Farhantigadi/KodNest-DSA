@@ -31,3 +31,9 @@ class reverse2 {
         System.out.println(rev);
     }
 }
+class sunstring{
+    public static void main(String[] args) {
+        String str = "World Of java";
+        System.out.println(str.substring(1,4));
+    }
+}
