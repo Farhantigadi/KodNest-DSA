@@ -30,13 +30,6 @@ public class LongestSubstring {
         System.out.println(max);
     }
 
-    public static void   findRepeating(String s){
-        HashMap<Character,Integer> map = new HashMap<>();
-        for (char ch : s.toCharArray()){
-            map.put(ch,map.getOrDefault(ch,0)+1);
 
-        }
-        System.out.println(map);
-    }
 }
 
