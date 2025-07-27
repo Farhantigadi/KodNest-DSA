@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ý“ô©
+E	java:S106"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(’Î”ä
+U
+java:S1854":Remove this useless assignment to local variable "maxAvg".(Ìë©ßýÿÿÿÿ
