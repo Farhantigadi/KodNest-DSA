@@ -22,8 +22,8 @@ public class MergeTwoSortedArray {
 
             } else {
                 newMergedArray[k++] = arr2[j];
-                j++;
                 i++;
+                j++;
             }
         }
          while (i<n1){

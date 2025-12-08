@@ -1,5 +1,8 @@
 package Arrays;
 
+import javax.xml.stream.events.Characters;
+import java.util.*;
+
 public class MergeTwoAlphabeticalStrings {
     public static void main(String[] args) {
         mergedString("acxz","bd");
@@ -29,3 +32,29 @@ public class MergeTwoAlphabeticalStrings {
         System.out.println(merge);
     }
 }
+class Solution {
+    public static int lengthOfLongestSubstring(String s) {
+        Set<Character> set = new HashSet<>();
+        int left = 0;
+        int max = 0;
+        int start=0;
+        for (int right = 0; right < s.length(); right++) {
+            while (set.contains(s.charAt(right))) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(s.charAt(right));
+            max = Math.max(max, right - left + 1);
+            start=left;
+
+
+        }
+        System.out.println(s.substring(start,start+max));
+        return max;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(lengthOfLongestSubstring("pwwkew"));
+    }
+}
+

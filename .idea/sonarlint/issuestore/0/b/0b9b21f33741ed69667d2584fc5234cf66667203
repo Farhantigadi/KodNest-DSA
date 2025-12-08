@@ -1,0 +1,14 @@
+
+i	java:S101="MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿¦Ïı8—‘¶Ã‡3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©8—‘¶Ã‡3
+A
+java:S1659"Declare "j" on a separate line.(á”æåşÿÿÿÿ8ñ’¶Ã‡3
+G	java:S106 "+Replace this use of System.out by a logger.(ïüÍÔ8õ’¶Ã‡3
+L	java:S1064"+Replace this use of System.out by a logger.(××´êøÿÿÿÿ8ÿ’¶Ã‡3
+L	java:S1069"+Replace this use of System.out by a logger.(Ã’ıÛüÿÿÿÿ8“¶Ã‡3
+W
+java:S1118=":Add a private constructor to hide the implicit public one.(¿¦Ïı8ƒ“¶Ã‡3
+=
+java:S1659?"!Declare "sum" on a separate line.(®†Ô88…“¶Ã‡3
+a
+java:S1128"?Remove this unused import 'javax.xml.stream.events.Characters'.(„Õ“Œşÿÿÿÿ8‰“¶Ã‡3

@@ -13,3 +13,23 @@ c
 .src/Arrays/SlidingWindow/LongestSubstring.java,4\2\427ae1475fe832edc15eb27cc2356aa621663834
 S
 #src/Arrays/MaxWaterInConatiner.java,e\5\e5840b2af7700ec6f896732c6bd4f0701dd9c54b
+S
+#src/Arrays/PrefixSum/isAnagram.java,9\0\90fe0c51f035a99e3c9e891578671116ef46078b
+K
+src/Arrays/KadanesAlgo.java,5\5\553f95bb7a5add06f5565e7dd649165663b2b269
+]
+-src/Arrays/SlidingWindow/MinMaxDiffrence.java,d\9\d9def026a9e45957cec26c28d45abdb05d77d1a2
+[
++src/Arrays/MergeTwoAlphabeticalStrings.java,0\b\0b9b21f33741ed69667d2584fc5234cf66667203
+O
+src/Arrays/PrefixSum/Basic.java,6\9\69dde068ed2710525d9c66320fbb2b010508f3b3
+O
+src/KodNestCollection/Main.java,d\3\d302cf704a2f797edb0f0b9680edd935f30c350b
+Q
+!src/Arrays/RotaingArrayByOne.java,b\4\b4ac72168941b83b48f378edf4f60d2568938007
+K
+src/Arrays/RotateArray.java,4\6\4606bba77aa368054f84793480ad4b8b7088c958
+B
+src/JDBC/Demo.java,5\6\56e0429d839da114ce8b0ff0f411215baa950a40
+L
+src/JDBC/SelectAnyTable.java,3\b\3bd73f9744447cd43be3763aa804ccdbeee934c3

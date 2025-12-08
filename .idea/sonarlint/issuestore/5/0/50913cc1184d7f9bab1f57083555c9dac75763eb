@@ -1,9 +1,28 @@
 
-J
-java:S1066"/Merge this if statement with the enclosing one.(®Œ«©øÿÿÿÿ
-7
-java:S1643"Use a StringBuilder instead.( ”•Ÿıÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
-E	java:S106"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ
-W
-java:S1126"AReplace this if-then-else statement by a single return statement.(“ÈÅ
+Q
+java:S1066"/Merge this if statement with the enclosing one.(®Œ«©øÿÿÿÿ8ªÖÅ¬3
+>
+java:S1643"Use a StringBuilder instead.( ”•Ÿıÿÿÿÿ8±ÖÅ¬3
+i	java:S101@"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(òÉ½Î8¸ÖÅ¬3
+i	java:S101["MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½Ÿª8¸ÖÅ¬3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©8ÇÖÅ¬3
+L	java:S106"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8¿òÅ¬3
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(“ÈÅ8ÔòÅ¬3
+L	java:S1062"+Replace this use of System.out by a logger.(âŸÑ®ıÿÿÿÿ8‚óÅ¬3
+L	java:S106Q"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8ºóÅ¬3
+L
+java:S1197]"*Move the array designators [] to the type.(–ÍØúÿÿÿÿ8ÒóÅ¬3
+j	java:S100a"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¶íö8ØóÅ¬3
+8
+java:S3626m"Remove this redundant jump.(ÉŠ©ƒ8ÜóÅ¬3
+G
+java:S1197a"*Move the array designators [] to the type.(é¶íö8ŞóÅ¬3
+G	java:S106x"+Replace this use of System.out by a logger.(„›Ôù8íóÅ¬3
+L
+java:S1197|"*Move the array designators [] to the type.(æëôïùÿÿÿÿ8òóÅ¬3
+E
+java:S1659}"#Declare "right" on a separate line.(¨İø¹úÿÿÿÿ8÷óÅ¬3
+H	java:S106‰"+Replace this use of System.out by a logger.(„›Ôù8ıóÅ¬3
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8€ôÅ¬3

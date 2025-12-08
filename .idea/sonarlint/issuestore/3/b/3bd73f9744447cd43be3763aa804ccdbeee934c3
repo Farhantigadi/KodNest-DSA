@@ -1,0 +1,38 @@
+
+o
+java:S1192"YDefine a constant instead of duplicating this literal "com.mysql.cj.jdbc.Driver" 4 times.(ğ¿Éí
+]
+java:S11926"GDefine a constant instead of duplicating this literal "Farhan" 3 times.(¬æ·ù
+|
+java:S1192"aDefine a constant instead of duplicating this literal "jdbc:mysql://localhost:3306/Demo" 4 times.(îòÜ‹şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú‚®Šùÿÿÿÿ
+^
+java:S2095G"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ü´Ê
+j
+java:S2095O"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(àø„˜úÿÿÿÿ
+^
+java:S2095c"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ü´Ê
+j
+java:S20954"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(àø„˜úÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(àø„˜úÿÿÿÿ
+j
+java:S2095k"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(àø„˜úÿÿÿÿ
+^
+java:S2095,"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ü´Ê
+^
+java:S2095
+"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ü´Ê
+K
+java:S6437"6Revoke and change this password, as it is compromised.(´‚¾!
+@	java:S106"+Replace this use of System.out by a logger.(†»û·
+E	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+K
+java:S6437/"6Revoke and change this password, as it is compromised.(´‚¾!
+@	java:S106:"+Replace this use of System.out by a logger.(¯î…–
+K
+java:S6437J"6Revoke and change this password, as it is compromised.(´‚¾!
+@	java:S106U"+Replace this use of System.out by a logger.(©³ƒº
+K
+java:S6437f"6Revoke and change this password, as it is compromised.(´‚¾!
+E	java:S106p"+Replace this use of System.out by a logger.(òá¢üÿÿÿÿ

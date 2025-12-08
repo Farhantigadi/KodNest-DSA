@@ -26,11 +26,12 @@ class Subarrays {
         for (int i = 0; i < arr.length; i++) {
             StringBuilder subarray = new StringBuilder();
             for (int j = i; j < arr.length; j++) {
-                subarray.append(arr[j]).append(" ");
+                subarray.append(arr[j]+" ");
                 System.out.println(subarray);
 
 
             }
+            System.out.println();
         }
     }
 }

@@ -22,14 +22,11 @@ public class LongestSubstring {
             set.add(str.charAt(right));
             max = Math.max(max,right-left+1);
             start = left;
-
-
         }
         String s = str.substring(start,start+max);
         System.out.println(s);
         System.out.println(max);
     }
-
 
 }
 
