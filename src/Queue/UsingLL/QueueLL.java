@@ -30,8 +30,7 @@ class Queue{
      }
      public void enqueue(int data){
          Node node = new Node(data);
-         if (rear == null){
-             node.next = front;
+         if (front == null){
              front = rear = node;
          } else {
              rear.next=node;
