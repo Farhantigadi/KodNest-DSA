@@ -1,4 +1,5 @@
 package Trees.Kodnest;
+import java.util.*;
 
 public class DistributeWorkLoad {
     Node root;
@@ -13,16 +14,54 @@ public class DistributeWorkLoad {
         }
         return root;
     }
-    public void insertdata(int data){
-        root = insert(root,data);
+    public void insertData(int data){
+        root = insertBT(root,data);
     }
 
-    public void inorder(Node root){
-        if (root == null){
+    public void inorder(Node node){
+        if (node == null){
             return;
         }
-        inorder(root.left);
-        System.out.print(root.data+" ");
-        inorder(root.right);
+        inorder(node.left);
+        System.out.print(node.data+" ");
+        inorder(node.right);
     }
+
+    public Node insertBT(Node root, int data) {
+
+        // Case 1: Tree empty
+        if (root == null) {
+            return new Node(data);
+        }
+
+
+        // Case 2: Tree not empty → level order traversal
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+
+
+        while (!q.isEmpty()) {
+            Node temp = q.poll();
+
+
+            // LEFT child
+            if (temp.left == null) {
+                temp.left = new Node(data);
+                break;
+            } else {
+                q.add(temp.left);
+            }
+
+            // RIGHT child
+            if (temp.right == null) {
+                temp.right = new Node(data);
+                break;
+            } else {
+                q.add(temp.right);
+            }
+        }
+        return root;
+    }
+
 }
